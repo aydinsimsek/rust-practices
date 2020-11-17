@@ -2,7 +2,7 @@ use std::io;
 
 fn main() {
     let mut sum = 0; 
-    println!("Please enter 5 numbers"); 
+    println!("Please enter 5 integers"); 
     for _i in 0..5
     {
         let mut input_text = String::new();
@@ -16,5 +16,5 @@ fn main() {
             Err(..) => println!("this was not an integer: {}", trimmed),
         };
     }
-    println!("Sum of the numbers you entered = {}", sum);    
+    println!("Sum of the integers you entered = {}", sum);    
 }
