@@ -1,7 +1,7 @@
 ## Problem Definition
 Increment the values of the elements of a vector and change the order of the elements.
 Tasks for this problem are: 
-* Getting the elements of the vector by the user. 
+* Getting the elements of the vector from the user. 
 * Printing the initial and final vector. 
 
 ## Sample Output 
