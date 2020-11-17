@@ -11,6 +11,6 @@ fn main() {
         let trimmed = input_text.trim();
         match trimmed.parse::<f32>() {
             Ok(f) => println!("{}°F = {}°C", f, (((f-32.0)*5.0)/9.0)),
-            Err(..) => println!("this was not an integer: {}", trimmed),
+            Err(..) => println!("this was not a float: {}", trimmed),
         };    
 }
