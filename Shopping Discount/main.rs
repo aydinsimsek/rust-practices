@@ -13,7 +13,7 @@ fn main() {
 
         let trimmed = input_text.trim();
         match trimmed.parse::<f32>() {
-            Ok(i) => v.push(i),   
+            Ok(f) => v.push(f),   
             Err(..) => println!("this was not a float: {}", trimmed),
         }; 
     }
@@ -41,4 +41,4 @@ fn discount(item: f32) -> f32
     let result: f32; 
     result = item * 0.1;  
     result
-}
+} 
