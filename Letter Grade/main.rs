@@ -30,6 +30,7 @@ fn main() {
     else if score >= 50.0 && score < 60.0 {grade = "FD".to_string();}
     else if score < 50.0 {grade = "FF".to_string();}
     
+    // Following part is added to practice the implementation of the push_str method
     if grade == "AA" || grade == "BA" {grade.push_str(". Fantastic!");} 
     else if grade == "BB" || grade == "CB" {grade.push_str(". Good job!");} 
     else if grade == "CC" {grade.push_str(". Not bad!");} 
