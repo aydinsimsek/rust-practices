@@ -19,7 +19,7 @@ fn main() {
     }
     
     let score: f32 = (v[0]+v[1]) * 0.3 + v[2] * 0.4;   
-    println!("Your score is = {}", score); 
+    println!("Your score = {}", score); 
     let mut grade: String = "None".to_string();      
     if score >= 90.0 {grade = "AA".to_string();}  
     else if score >= 85.0 && score < 90.0 {grade = "BA".to_string();}
