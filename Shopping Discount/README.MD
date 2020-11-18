@@ -1,7 +1,7 @@
 ## Problem Definition 
-Let's say there is a store and for some reason they make a 10% discount on the most expensive item if and only if their customers buy 10 items. 
+Let's say there is a store and for some reason they make a 10% discount on the most expensive item that customers purchase. 
 The tasks for this problem are: 
-* Getting the prices of the 10 items from the user. 
+* Getting the prices of the items from the user. 
 * Printing the price of the most expensive item. 
 * Printing the total price of the items before and after discount.
 
